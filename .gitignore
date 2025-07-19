@@ -1,0 +1,109 @@
+# Build results
+bin/
+obj/
+out/
+[Ll]og/
+Generated_Code/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
+
+# Build logs
+msbuild.log
+
+# Azure Pipelines
+.azure-pipelines/
+
+# Local NuGet packages
+*.nupkg
+*.snupkg
+*.symbols.nupkg
+.nuget/
+
+# Others
+*.db
+*.pfx
+*.publishsettings
+secrets.json
+
+# Env files
+.env
+.env.*
+
+# Configuration
+appsettings.Development.json
+appsettings.Local.json
+
+# Publish folder
+publish/
+wwwroot/
+
+# JetBrains Rider specific
+.idea/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.log
+
+# Entity Framework
+migrations/
+
+# Paket
+.paket/
+paket-files/
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# node_modules (in case you're using frontend with it)
+node_modules/
+
+# Coverage reports
+coverage/
+lcov-report/
+
+# Docker
+**/docker-compose.override.yml
+**/docker-compose.yml
+Dockerfile
+*.dockerfile
+
+# Temporary files
+~$*
+*.tmp
+*.bak
+*.swp
