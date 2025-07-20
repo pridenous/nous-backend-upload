@@ -13,6 +13,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IDatabaseService, DatabaseService>();
 builder.Services.AddScoped<IUploadService, UploadService>();
+builder.Services.AddScoped<ILoginService, LoginService>();
 
 var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
